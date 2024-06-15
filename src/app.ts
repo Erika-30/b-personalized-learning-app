@@ -1,6 +1,13 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
+import authRoutes from "./api/routes/authRoutes";
+import uploadRoutes from "./api/routes/uploadRoutes";
+import studentRoutes from "./api/routes/studentRoutes";
+import teacherRoutes from "./api/routes/teacherRoutes";
+import parentRoutes from "./api/routes/parentRoutes";
+import evaluationRoutes from "./api/routes/evaluationRoutes";
+import lessonRoutes from "./api/routes/lessonRoutes";
 
 const app = express();
 
